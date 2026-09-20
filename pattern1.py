@@ -1,11 +1,14 @@
 class Solution:
-    def patter1(self,n):
+    def pattern1(self,n):
         for i in range(n):
             for j in range(n):
-                print("*",end = '')
+                print("*",end=" ")
 
             print()
 
-    my_solution = Solution()
 
-    my_solution.patter1(5)
+
+sol = Solution()
+n = 5
+
+sol.pattern1(n)
