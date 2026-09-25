@@ -10,4 +10,4 @@ s1 = Solution()
 n = 36
 
 s1.divisors(n)
-            
+             
