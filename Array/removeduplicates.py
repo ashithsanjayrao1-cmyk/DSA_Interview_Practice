@@ -8,7 +8,7 @@ class Solution():
 
             if arr[j] != arr[i]:
                 arr[i+1] = arr[j]
-                i +=1 
+                i +=1   
 
         return i+1
 
