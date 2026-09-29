@@ -1,20 +1,16 @@
 class Solution():
     def unionsorted(self,arr1,arr2):
-        
-
-        st = set()
 
         n1 = len(arr1)
-
-        n2 = len(arr2) 
+        n2 = len(arr2)
 
         i = 0
         j = 0
+
         union_arr = []
 
         while i < n1 and j < n2:
             if arr1[i] <= arr2[j]:
-
                 if len(union_arr) == 0 or union_arr[-1] != arr1[i]:
                     union_arr.append(arr1[i])
 
@@ -26,11 +22,11 @@ class Solution():
 
                 j += 1
 
-        while i<n1:
+        while i < n1:
             if len(union_arr) == 0 or union_arr[-1] != arr1[i]:
                 union_arr.append(arr1[i])
 
-            i+=1
+            i += 1
 
         while j < n2:
             if len(union_arr) == 0 or union_arr[-1] != arr2[j]:
@@ -39,22 +35,9 @@ class Solution():
             j += 1
 
         return union_arr
-
-        # for i in range(n1):
-        #     st.add(arr1[i])
-
-        # for i in range(n2):
-        #     st.add(arr2[i])
+       
 
 
-        # sorted_st = sorted(st)
-
-        # union_arr = []
-        # for it in sorted_st:
-        #     union_arr.append(it)
-            
-        return union_arr
-    
 
 s1 = Solution()
 arr1 = [1, 2, 3, 4, 5]
