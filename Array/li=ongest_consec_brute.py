@@ -40,5 +40,5 @@ print(s1.longestConsecutive(arr))
 
             
 
-
+        
         

@@ -1,7 +1,7 @@
 class Solution():
     def longestSubarryWithSumK(self,arr,k):
 
-        n = len(arr)
+        n = len(arr) 
 
         long = 0
 
@@ -10,7 +10,7 @@ class Solution():
             for j in range(i,n):
 
                 sum += arr[j]
-                
+
                 if sum == k:
                     long = max(long,j-i+1)
 

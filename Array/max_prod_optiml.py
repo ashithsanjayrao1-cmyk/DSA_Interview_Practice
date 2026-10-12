@@ -13,7 +13,7 @@ class Solution():
                 pref = 1
 
             if suff == 0:
-                pref = 1
+                suff = 1
 
             pref *= arr[i]
 
