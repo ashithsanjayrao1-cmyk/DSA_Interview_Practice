@@ -12,7 +12,7 @@ class Solution():
                 count = 0
 
         bouquets += (count//k)
-        return bouquets >= m
+        return bouquets >= m 
 
     def minDays(self,bloomDay,m,k):
         n = len(bloomDay)

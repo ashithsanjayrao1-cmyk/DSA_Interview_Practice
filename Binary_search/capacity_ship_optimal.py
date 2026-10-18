@@ -22,7 +22,7 @@ class Solutiion():
 
         while low<= high:
             mid = (low+high)//2
-
+ 
             no_of_days = self.findDays(weight,mid)
             if no_of_days <= days:
                 high = mid-1
