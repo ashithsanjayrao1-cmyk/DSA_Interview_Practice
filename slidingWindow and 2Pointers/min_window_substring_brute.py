@@ -46,4 +46,4 @@ class Solution():
 
 
 s1 = Solution()
-print(s1.minWindow("ADOBECODEBANC", "ABC"))
+print(s1.minWindow("DDAAABBCA", "ABC"))
