@@ -28,4 +28,4 @@ class Solution():
         return max_len
                 
 s1 = Solution()
-print(s1.characterReplacement("AABABBA", 1))
+print(s1.characterReplacement("AABABBA", 1)) 

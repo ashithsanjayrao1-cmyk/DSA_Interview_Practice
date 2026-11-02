@@ -29,6 +29,13 @@ def delet_by_value(temp):
     back_node = temp.back
     front_node = temp.next
 
+    if front_node is None:
+        back_node.next = None
+        temp.prev = None
+
+        return
+    
+
     if back_node is not None:
         back_node.next = front_node
 

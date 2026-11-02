@@ -15,7 +15,7 @@ def arr_to_doubly_linked_list(arr):
 
     head = Node(arr[0])
     back = head
-
+                           
     for i in range(1,n):
 
         temp = Node(arr[i],None,back)

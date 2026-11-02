@@ -19,8 +19,8 @@ class Solution():
     
 
 
-s1 = Solution()
+s1 = Solution()                 
 
-arr = []
+arr = [6,6,6,6]
 
 print(s1.SecondLargest(arr))

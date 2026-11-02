@@ -24,7 +24,7 @@ def arr_to_linked_list(arr):
 
 
 def delete_tail(head):
-    if head is None and head.next is None:
+    if head is None or head.next is None:
         return None
 
     temp = head
@@ -39,7 +39,7 @@ def print_linked_list(head):
     while temp is not None:
         print(temp.data,end="-> ")
 
-        temp = temp.next 
+        temp = temp.next                    
 
     print("None")
 
