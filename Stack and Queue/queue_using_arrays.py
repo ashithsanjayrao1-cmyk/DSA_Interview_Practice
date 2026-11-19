@@ -26,8 +26,6 @@ class Queue:
         self.curSiz += 1
 
     def pop(self):
-        if self.curSiz == self.max_size:
-            print("")
 
 
         if self.curSiz == 0:
